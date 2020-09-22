@@ -16,7 +16,7 @@ const allowedAttrs = ["width", "height", "viewBox"];
 const template = fs.readFileSync(__dirname + "/template.svelte", "utf8");
 
 const srcDir = __dirname + "/MaterialDesign/svg";
-const destDir = __dirname + "/svelte-material-icons";
+const destDir = __dirname + "/dist";
 
 const hyp = "-".charCodeAt(0);
 
