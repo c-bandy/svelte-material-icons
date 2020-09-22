@@ -1,6 +1,6 @@
 {
   "name": "@c-bandy/svelte-material-icons",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Svelte Material Design Icons",
   "main": "build.js",
   "scripts": {
