@@ -1,22 +1,24 @@
 {
-  "name": "svelte-material-icons-generator",
+  "name": "@c-bandy/svelte-material-icons",
   "version": "1.0.0",
-  "description": "Svelte Material Design Icons Generator",
+  "description": "Svelte Material Design Icons",
   "main": "build.js",
   "scripts": {
     "build": "node build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramiroaisen/svelte-material-icons.git"
+    "url": "git+https://github.com/c-bandy/svelte-material-icons.git"
   },
-  "author": "",
+  "author": "c-bandy",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/c-bandy/svelte-material-icons/issues"
   },
-  "homepage": "https://github.com/ramiroaisen/svelte-material-icons#readme",
+  "homepage": "https://github.com/c-bandy/svelte-material-icons#readme",
+  "devDependencies": {},
   "dependencies": {
     "cheerio": "^1.0.0-rc.3"
   }
