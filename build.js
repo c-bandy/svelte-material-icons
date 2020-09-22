@@ -73,6 +73,12 @@ const generateComponentSource = (file) => {
   return template.replace("%svg%", $.html($svg));
 }
 
+if (fs.existsSync(destDir)) {
+  fs.rmdirSync(destDir, { recursive: true });
+}
+
+fs.mkdirSync(destDir);
+
 const filenames = fs.readdirSync(srcDir);
 console.log("Generating " + filenames.length + " components");
 
