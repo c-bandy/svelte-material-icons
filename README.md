@@ -2,7 +2,7 @@
 
 ### Install
 ```sh
-npm i svelte-material-icons
+npm i @c-bandy/svelte-material-icons
 ```
 
 ### Usage
