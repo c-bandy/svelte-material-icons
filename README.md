@@ -8,7 +8,7 @@ npm i svelte-material-icons
 ### Usage
 ```svelte
 <script>
-  import Check from "svelte-material-icons/dist/Check.svelte";
+  import Check from "@c-bandy/svelte-material-icons/dist/Check.svelte";
 </script>
 
 <Check {color} {size} {width} {height} {viewBox} />
